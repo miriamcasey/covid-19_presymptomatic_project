@@ -3,8 +3,7 @@ data_and_code _to_estimate_presymptomatic_transmission_of_covid-19
 ###### MS ID#: MEDRXIV/2020/094870
 #####  MS TITLE: Estimating pre-symptomatic transmission of COVID-19: a secondary analysis using published data
 #### Background: Understanding the extent of SARS-CoV-2 transmission that can occur before symptom onset is required for targeting control measures against the COVID-19 pandemic. 
-#Objective: Estimation of the proportion of pre-symptomatic transmission of COVID-19 that can occur and timing of transmission 
-### relative to symptom onset.
+#Objective: Estimation of the proportion of pre-symptomatic transmission of COVID-19 that can occur and timing of transmission relative to symptom onset.
 #### Design: Secondary analysis of published data ####
 #Methods: Simulations were generated of incubation period and of serial interval or generation time. From these, transmission times #relative to symptom onset were calculated and the proportion of pre-symptomatic transmission was estimated.
 #### We hope the data and code uploaded here will save others effort identifying and parameterising incubation period, generation time and # serial interval distributions
