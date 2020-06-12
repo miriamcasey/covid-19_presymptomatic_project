@@ -1,0 +1,113 @@
+study_r,study_r1,location,n,distribution,transmission_parameter,distribution_parameter,dist_par_r,central_measure,uncertainty_95_percent_ci,lower_ci,upper_ci,ci_category,ci_status,source
+bi,bi,Shenzen China,48 pairs,Gamma,SI,SD,sd,4.2,3.1-5.3,3.1,5.3,mean_sd_gamma,OK,https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30287-5/fulltext
+bi,bi,Shenzen China,48 pairs,Gamma,SI,95th percentile,95th percentile,14.3,11.1-17.6,,,mean_sd_gamma,OK,https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30287-5/fulltext
+bi,bi,Shenzen China,48 pairs,Gamma,SI,Gamma shape,g_sh,2.25,NA,,,mean_sd_gamma,OK,https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30287-5/fulltext
+bi,bi,Shenzen China,48 pairs,Gamma,SI,Gamma rate,g_r,0.3571429,NA,,,mean_sd_gamma,OK,https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30287-5/fulltext
+bi,bi,Shenzen China,48 pairs,Gamma,SI,mean,mean,6.3,5.2-7.6,5.2,7.6,mean_sd_gamma,OK,https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30287-5/fulltext
+cereda,cereda,Lombardy Italy,90 pairs,Gamma,SI,95th percentile,95th percentile,16.1,NA,,,par_cis_available_gamma,OK,https://arxiv.org/abs/2003.09320
+cereda,cereda,Lombardy Italy,90 pairs,Gamma,SI,median,median,5.5,NA,,,par_cis_available_gamma,OK,https://arxiv.org/abs/2003.09320
+cereda,cereda,Lombardy Italy,90 pairs,Gamma,SI,gamma shape,g_sh,1.87,sd shape =0.26,1.3604,2.3796,par_cis_available_gamma,OK,https://arxiv.org/abs/2003.09320
+cereda,cereda,Lombardy Italy,90 pairs,Gamma,SI,gamma scale,g_sc,0.28,sd scale = 0.04,,,par_cis_available_gamma,OK,https://arxiv.org/abs/2003.09320
+cereda,cereda,Lombardy Italy,90 pairs,Gamma,SI,gamma rate,g_r,0.28,NA,0.2016,0.3584,par_cis_available_gamma,OK,https://arxiv.org/abs/2003.09320
+cereda,cereda,Lombardy Italy,90 pairs,Gamma,SI,sd from sim,sd,4.97,,,,par_cis_available_gamma,OK,
+cereda,cereda,Lombardy Italy,90 pairs,Gamma,SI,mean,mean,6.6,0.7-19,0.7,19,par_cis_available_gamma,OK,https://arxiv.org/abs/2003.09320
+cheng,cheng,Taiwan,12 pairs,Gamma,SI,Mean,mean,7,_3.69-13.18,,,excluded,excluded,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7195694/
+cheng,cheng,Taiwan,12 pairs,Gamma,SI,SD,sd,6.14,_3.19-14.09,,,excluded,excluded,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7195694/
+cheng,cheng,Taiwan,12 pairs,Gamma,SI,Gamma shape,g_sh,1.37,_0.51-2.73,,,excluded,excluded,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7195694/
+cheng,cheng,Taiwan,12 pairs,Gamma,SI,Gamma rate,g_r,0.16286645,NA,,,excluded,excluded,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7195694/
+ganyani_singapore_base,ganyani_singapore_base,Singapore,91 cases (54 with known contacts),Gamma,GT,Gamma rate*,g_r,1.76,NA,,,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_singapore_base,ganyani_singapore_base,Singapore,91 cases (54 with known contacts),Gamma,GT,mean,mean,5.2,3.78-6.78,3.78,6.78,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_singapore_base,ganyani_singapore_base,Singapore,91 cases (54 with known contacts),Gamma,GT,Gamma shape*,g_sh,9.14,NA,,,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_singapore_base,ganyani_singapore_base,Singapore,91 cases (54 with known contacts),Gamma,GT,sd,sd,1.71,0.91-3.93,0.91,3.93,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_singapore_base_si,ganyani_singapore_base,Singapore,91 cases (54 with known contacts),Not reported,SI,mean,mean,5.21,,-3.35,13.94,don’t_know_dist,,
+ganyani_singapore_base_si,ganyani_singapore_base,Singapore,91 cases (54 with known contacts),Not reported,SI,sd,sd,4.32,,4.06,5.58,don’t_know_dist,,
+ganyani_singapore_neg,ganyani_singapore_neg,Singapore,91 cases (54 with known contacts),Gamma,GT,mean,mean,3.86,2.22-5.6,2.22,5.6,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_singapore_neg,ganyani_singapore_neg,Singapore,91 cases (54 with known contacts),Gamma,GT,sd,sd,2.65,0.87-5.43,0.87,5.43,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_singapore_neg,ganyani_singapore_neg,Singapore,91 cases (54 with known contacts),Gamma,GT,Gamma shape,g_sh,2.12,NA,NA,NA,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_singapore_neg,ganyani_singapore_neg,Singapore,91 cases (54 with known contacts),Gamma,GT,Gamma rate,g_r,0.55,NA,NA,NA,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_singapore_neg_si,ganyani_singapore_neg,Singapore,91 cases (54 with known contacts),Not reported,SI,mean,mean,3.86,,-5.15,13.88,don’t_know_dist,,
+ganyani_singapore_neg_si,ganyani_singapore_neg,Singapore,91 cases (54 with known contacts),Not reported,SI,sd,sd,4.76,,4.05,6.72,don’t_know_dist,,
+ganyani_tianjin_base,ganyani_tianjin_base,Tianjin China,135 cases (114 with known contacts),Gamma,GT,Gamma rate,g_r,1.73,NA,NA,NA,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_tianjin_base,ganyani_tianjin_base,Tianjin China,135 cases (114 with known contacts),Gamma,GT,mean,mean,3.95,3.01-4.91,3.01,4.91,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_tianjin_base,ganyani_tianjin_base,Tianjin China,135 cases (114 with known contacts),Gamma,GT,Gamma shape,g_sh,6.84,NA,NA,NA,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_tianjin_base,ganyani_tianjin_base,Tianjin China,135 cases (114 with known contacts),Gamma,GT,sd,sd,1.51,0.74-2.97,0.74,2.97,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_tianjin_base_si,ganyani_tianjin_base,Tianjin China,135 cases (114 with known contacts),Not reported,SI,mean,mean,3.95,,-4.47,12.51,don’t_know_dist,,
+ganyani_tianjin_base_si,ganyani_tianjin_base,Tianjin China,135 cases (114 with known contacts),Not reported,SI,sd,sd,4.24,,4.03,4.95,don’t_know_dist,,
+ganyani_tianjin_neg,ganyani_tianjin_neg,Tianjin China,135 cases (114 with known contacts),Gamma,GT,mean,mean,2.9,1.85-4.12,1.85,4.12,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_tianjin_neg,ganyani_tianjin_neg,Tianjin China,135 cases (114 with known contacts),Gamma,GT,sd,sd,2.86,1.37-5.04,1.37,5.04,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_tianjin_neg,ganyani_tianjin_neg,Tianjin China,135 cases (114 with known contacts),Gamma,GT,Gamma shape,g_sh,1.03,NA,NA,NA,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_tianjin_neg,ganyani_tianjin_neg,Tianjin China,135 cases (114 with known contacts),Gamma,GT,Gamma rate,g_r,0.36,NA,NA,NA,mean_sd_gamma,OK,https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.17.2000257
+ganyani_tianjin_neg_si,ganyani_tianjin_neg,Tianjin China,135 cases (114 with known contacts),Not reported,SI,mean,mean,2.9,,-6.12,13.47,don’t_know_dist,,
+ganyani_tianjin_neg_si,ganyani_tianjin_neg,Tianjin China,135 cases (114 with known contacts),Not reported,SI,sd,sd,4.88,,4.19,6.41,don’t_know_dist,,
+lavezzo,lavezzo,Northern Italy,"?166  cases, 120  transmission pairs",Gamma,SI,sd,sd,2.85,NA,,,missing_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.04.17.20053157v1
+lavezzo,lavezzo,Northern Italy,"?166  cases, 120  transmission pairs",Gamma,SI,gamma shape,g_sh,5.93,NA,,,missing_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.04.17.20053157v1
+lavezzo,lavezzo,Northern Italy,"?166  cases, 120  transmission pairs",Gamma,SI,gamma rate,g_r,0.854700855,NA,,,missing_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.04.17.20053157v1
+lavezzo,lavezzo,Northern Italy,"?166  cases, 120  transmission pairs",Gamma,SI,mean,mean,6.93,2.6-13.4,2.6,13.4,missing_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.04.17.20053157v1
+li,li,Wuhan,6 pairs,Gamma,SI,mean,mean,7.5,5.3-19,5.3,19,missing_sd_cis,NOT OK,https://www.nejm.org/doi/full/10.1056/NEJMoa2001316
+li,li,Wuhan,6 pairs,Gamma,SI,Gamma shape,g_sh,4.865917,NA,,,missing_sd_cis,NOT OK,https://www.nejm.org/doi/full/10.1056/NEJMoa2001316
+li,li,Wuhan,6 pairs,Gamma,SI,Gamma rate,g_r,0.6487889,NA,,,missing_sd_cis,NOT OK,https://www.nejm.org/doi/full/10.1056/NEJMoa2001316
+li,li,Wuhan,6 pairs,Gamma,SI,SD,sd,3.4,NA,,,missing_sd_cis,NOT OK,https://www.nejm.org/doi/full/10.1056/NEJMoa2001316
+liao,liao,"_Chongqing, China",12 pairs,Gamma,SI,mean,mean,6.5,2.45-17.38,2.45,17.38,excluded,excluded,https://www.medrxiv.org/content/10.1101/2020.03.10.20032136v1
+liao,liao,"_Chongqing, China",12 pairs,Gamma,SI,median,median,1.91,0.37-6.16,,,excluded,excluded,https://www.medrxiv.org/content/10.1101/2020.03.10.20032136v1
+liao,liao,"_Chongqing, China",12 pairs,Gamma,SI,5th percentile,5th percentile,0.01,0-0.01,,,excluded,excluded,https://www.medrxiv.org/content/10.1101/2020.03.10.20032136v1
+liao,liao,"_Chongqing, China",12 pairs,Gamma,SI,95th percentile,95th percentile,28.57,10.35-76.9,,,excluded,excluded,https://www.medrxiv.org/content/10.1101/2020.03.10.20032136v1
+wang_teunis,wang_teunis,"Tianjin, China",112 cases,Gamma,SI,mean,mean,4.8,NA,,,missing_mean_and_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.03.10.20033852v1.full.pdf
+wang_teunis,wang_teunis,"Tianjin, China",112 cases,Gamma,SI,gamma rate,g_r,0.657894737,NA,,,missing_mean_and_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.03.10.20033852v1.full.pdf
+wang_teunis,wang_teunis,"Tianjin, China",112 cases,Gamma,SI,sd from sim,sd,2.69,,,,missing_mean_and_sd_cis,,
+wang_teunis,wang_teunis,"Tianjin, China",112 cases,Gamma,SI,gamma shape,g_sh,3.16,NA,,,missing_mean_and_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.03.10.20033852v1.full.pdf
+wu,wu,"China, Taiwan, Singapore, Vietnam, malasya, USA",43 pairs,Gamma,SI,mean,mean,7,5.8-8.1,5.8,8.1,mean_sd_gamma,OK,https://www.nature.com/articles/s41591-020-0822-7
+wu,wu,"China, Taiwan, Singapore, Vietnam, malasya, USA",43 pairs,Gamma,SI,sd,sd,4.5,3.5-5.5,3.5,5.5,mean_sd_gamma,OK,https://www.nature.com/articles/s41591-020-0822-7
+wu,wu,"China, Taiwan, Singapore, Vietnam, malasya, USA",43 pairs,Gamma,SI,gamma shape,g_sh,2.419753,NA,NA,NA,mean_sd_gamma,OK,https://www.nature.com/articles/s41591-020-0822-7
+wu,wu,"China, Taiwan, Singapore, Vietnam, malasya, USA",43 pairs,Gamma,SI,gamma rate,g_r,0.345679,NA,NA,NA,mean_sd_gamma,OK,https://www.nature.com/articles/s41591-020-0822-7
+zhang,zhang,China (excluding Hubei Province),35 pairs,Gamma,SI,mean,mean,5.1,1.3-11.6,1.3,11.6,missing_sd_cis,NOT OK,https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30230-9/fulltext
+zhang,zhang,China (excluding Hubei Province),35 pairs,Gamma,SI,gamma shape,g_sh,3.63,NA,NA,,missing_sd_cis,NOT OK,https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30230-9/fulltext
+zhang,zhang,China (excluding Hubei Province),35 pairs,Gamma,SI,sd from sim,sd,2.68,,,,missing_sd_cis,,
+zhang,zhang,China (excluding Hubei Province),35 pairs,Gamma,SI,gamma rate,g_r,0.71,NA,NA,,missing_sd_cis,NOT OK,https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30230-9/fulltext
+zhao_a_12,zhao_a_12,Hong Kong,12 case pairs,Gamma,SI,mean,mean,3.1,2-5.4,2,5.4,mean_sd_gamma,OK,https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1
+zhao_a_12,zhao_a_12,Hong Kong,12 case pairs,Gamma,SI,sd,sd,1.8,1-4.7,1,4.7,mean_sd_gamma,OK,https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1
+zhao_a_12,zhao_a_12,Hong Kong,12 case pairs,Gamma,SI,gamma shape,g_sh,2.966049,NA,NA,NA,mean_sd_gamma,OK,https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1
+zhao_a_12,zhao_a_12,Hong Kong,12 case pairs,Gamma,SI,gamma rate,g_r,0.9567901,NA,NA,NA,mean_sd_gamma,OK,https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1
+zhao_a_21,zhao_a_21,Hong Kong,21 transmission chains,Gamma,SI,mean,mean,4.4,2.9-6.7,2.9,6.7,mean_sd_gamma,OK,https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1
+zhao_a_21,zhao_a_21,Hong Kong,21 transmission chains,Gamma,SI,sd,sd,3,1.8-5.8,1.8,5.8,mean_sd_gamma,OK,https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1
+zhao_a_21,zhao_a_21,Hong Kong,21 transmission chains,Gamma,SI,gamma shape,g_sh,2.151111,NA,NA,NA,mean_sd_gamma,OK,https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1
+zhao_a_21,zhao_a_21,Hong Kong,21 transmission chains,Gamma,SI,gamma rate,g_r,0.4888889,NA,NA,NA,mean_sd_gamma,OK,https://www.medrxiv.org/content/10.1101/2020.02.21.20026559v1
+zhao_b,zhao_b,Hong Kong and Shenzen,48 pairs,Gamma,SI,Mean,mean,5.2,NA,,,par_cis_available_gamma,OK,https://www.ncbi.nlm.nih.gov/pubmed/32146921
+zhao_b,zhao_b,Hong Kong and Shenzen,48 pairs,Gamma,SI,sd_from_sim,sd,4.03,,,,par_cis_available_gamma,OK,https://www.ncbi.nlm.nih.gov/pubmed/32146921
+zhao_b,zhao_b,Hong Kong and Shenzen,48 pairs,Gamma,SI,gamma shape,g_sh,1.6691844,,1.056483,2.281886,par_cis_available_gamma,OK,https://www.ncbi.nlm.nih.gov/pubmed/32146921
+zhao_b,zhao_b,Hong Kong and Shenzen,48 pairs,Gamma,SI,gamma rate,g_r,0.3224628,,0.1846387,0.4602869,par_cis_available_gamma,OK,https://www.ncbi.nlm.nih.gov/pubmed/32146921
+mca,mca,,Metanalysis of 8 studies,Lognormal,IP,Lognormal meanlog,ln_ml,1.63,1.51-1.75,1.51,1.75,IP,IP,https://www.medrxiv.org/content/10.1101/2020.04.24.20073957v1
+mca,mca,,Metanalysis of 8 studies,Lognormal,IP,SD,SD,3,2.68-3.34,2.68,3.34,IP,IP,https://www.medrxiv.org/content/10.1101/2020.04.24.20073957v2
+mca,mca,,Metanalysis of 8 studies,Lognormal,IP,95th percentile,95th percentile,11.6,9.5-14.2,9.5,14.2,IP,IP,https://www.medrxiv.org/content/10.1101/2020.04.24.20073957v3
+mca,mca,,Metanalysis of 8 studies,Lognormal,IP,Lognormal Sdlog,ln_sdl,0.5,0.45-0.55,0.45,0.55,IP,IP,https://www.medrxiv.org/content/10.1101/2020.04.24.20073957v4
+mca,mca,,Metanalysis of 8 studies,Lognormal,IP,median,median,5.1,4.5-5.8,4.5,5.8,IP,IP,https://www.medrxiv.org/content/10.1101/2020.04.24.20073957v5
+mca,mca,,Metanalysis of 8 studies,Lognormal,IP,mean,mean,5.8,5.01-6.69,5.01,6.69,IP,IP,https://www.medrxiv.org/content/10.1101/2020.04.24.20073957v6
+nishiura_28,nishiura_28,"China, Taiwan, South Korea,Vietnam, Singapore, Germany",28 pairs,Lognormal,SI,median,median,4,3.1-4.9,3.1,4.9,mean_sd_lognormal,OK,https://www.ijidonline.com/article/S1201-9712(20)30119-3/pdf
+nishiura_28,nishiura_28,"China, Taiwan, South Korea,Vietnam, Singapore, Germany",28 pairs,Lognormal,SI,Lognormal meanlog,ln_ml,1.386262,NA,NA,NA,mean_sd_lognormal,OK,https://www.ijidonline.com/article/S1201-9712(20)30119-3/pdf
+nishiura_28,nishiura_28,"China, Taiwan, South Korea,Vietnam, Singapore, Germany",28 pairs,Lognormal,SI,mean,mean,4.7,3.7-6,3.7,6,mean_sd_lognormal,OK,https://www.ijidonline.com/article/S1201-9712(20)30119-3/pdf
+nishiura_28,nishiura_28,"China, Taiwan, South Korea,Vietnam, Singapore, Germany",28 pairs,Lognormal,SI,sd,sd,2.9,1.9-4.9,1.9,4.9,mean_sd_lognormal,OK,https://www.ijidonline.com/article/S1201-9712(20)30119-3/pdf
+nishiura_28,nishiura_28,"China, Taiwan, South Korea,Vietnam, Singapore, Germany",28 pairs,Lognormal,SI,Lognormal Sdlog,ln_sdl,0.5679803,NA,NA,NA,mean_sd_lognormal,OK,https://www.ijidonline.com/article/S1201-9712(20)30119-3/pdf
+du,du,China not Wuhan,468 pairs,Normal,SI,Normal SD,n_sd,4.75,4.46-5.07,4.46,5.07,mean_sd_normal,OK,https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article
+du,du,China not Wuhan,468 pairs,Normal,SI,Normal mean,n_m,3.96,3.53-4.39,3.53,4.39,mean_sd_normal,OK,https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article
+du_a,du_a,China not Wuhan,339 pairs,Normal,SI,Normal mean,n_m,5.29,4.72–5.86,4.72,5.86,mean_sd_normal,OK,https://www.medrxiv.org/content/10.1101/2020.04.23.20075796v1
+du_a,du_a,China not Wuhan,339 pairs,Normal,SI,Normal SD,n_sd,5.32,4.95–5.75,4.95,5.75,mean_sd_normal,OK,https://www.medrxiv.org/content/10.1101/2020.04.23.20075796v1
+ma,ma,"China (including Hong Kong, Macau, Taiwan), Japan, Singapore, South Korea, Malasya, Vietnam, Germany",689 pairs,Normal,SI,Normal mean,n_m,6.7,6.31-7.10,6.31,7.1,mean_sd_normal,OK,https://www.medrxiv.org/content/10.1101/2020.03.21.20040329v1
+ma,ma,"China (including Hong Kong, Macau, Taiwan), Japan, Singapore, South Korea, Malasya, Vietnam, Germany",689 pairs,Normal,SI,Normal SD,n_sd,5.2,4.91-5.46,4.91,5.46,mean_sd_normal,OK,https://www.medrxiv.org/content/10.1101/2020.03.21.20040329v1
+ma,ma,"China (including Hong Kong, Macau, Taiwan), Japan, Singapore, South Korea, Malasya, Vietnam, Germany",689 pairs,Normal,SI,median,median,6,NA,NA,NA,mean_sd_normal,OK,https://www.medrxiv.org/content/10.1101/2020.03.21.20040329v1
+tindale_singapore,tindale_singapore,Singapore,93 pairs,Normal,SI,Normal_SD,n_sd,0.95,NA,NA,NA,missing_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.03.03.20029983v1
+tindale_singapore,tindale_singapore,Singapore,93 pairs,Normal,SI,Normal_mean,n_m,4.56,2.69-6.42,2.69,6.42,missing_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.03.03.20029983v1
+tindale_tianjin,tindale_tianjin,"Tianjin, China",125 pairs,Normal,SI,Normal SD,n_sd,0.4,NA,NA,NA,missing_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.03.03.20029983v1
+tindale_tianjin,tindale_tianjin,"Tianjin, China",125 pairs,Normal,SI,Normal mean,n_m,4.22,3.43-5.01,3.43,5.01,missing_sd_cis,NOT OK,https://www.medrxiv.org/content/10.1101/2020.03.03.20029983v1
+he,he,"China,Taiwan,Japan,Vietnam,Malaysia,Singapore,USA",77 pairs,Shifted Gamma 7.6% negative Sis,SI,mean,mean,5.8,4.8–6.8,4.8,6.8,missing_sd_cis,NOT OK,https://www.nature.com/articles/s41591-020-0869-5
+he,he,"China,Taiwan,Japan,Vietnam,Malaysia,Singapore,USA",77 pairs,Shifted Gamma 7.6% negative Sis,SI,median,median,5.2,4.1–6.4,4.1,6.4,missing_sd_cis,NOT OK,https://www.nature.com/articles/s41591-020-0869-5
+he,he,"China,Taiwan,Japan,Vietnam,Malaysia,Singapore,USA",77 pairs,Shifted Gamma 7.6% negative Sis,SI,Gamma shape (-7days),g_sh,8.123758,NA,NA,NA,missing_sd_cis,NOT OK,https://www.nature.com/articles/s41591-020-0869-5
+he,he,"China,Taiwan,Japan,Vietnam,Malaysia,Singapore,USA",77 pairs,Shifted Gamma 7.6% negative Sis,SI,as from sim,sd,4.46,,,,missing_sd_cis,,
+he,he,"China,Taiwan,Japan,Vietnam,Malaysia,Singapore,USA",77 pairs,Shifted Gamma 7.6% negative Sis,SI,Gamma rate (-7 days),g_r,0.6361684,NA,NA,NA,missing_sd_cis,NOT OK,https://www.nature.com/articles/s41591-020-0869-5
+ferretti,ferretti,"China, Taiwan, South Korea, Veitnam, Singapore, Germany, Italy",40  pairs,Weibull,GT,mean,mean,5,NA,NA,NA,par_cis_available_weibull,OK,https://science.sciencemag.org/content/368/6491/eabb6936
+ferretti,ferretti,"China, Taiwan, South Korea, Veitnam, Singapore, Germany, Italy",40  pairs,Weibull,GT,Weibull scale,w_sc,5.665,4.7 - 6.9,4.7,6.9,par_cis_available_weibull,OK,https://science.sciencemag.org/content/368/6491/eabb6936
+ferretti,ferretti,"China, Taiwan, South Korea, Veitnam, Singapore, Germany, Italy",40  pairs,Weibull,GT,SD,SD,1.9,NA,NA,NA,par_cis_available_weibull,OK,https://science.sciencemag.org/content/368/6491/eabb6936
+ferretti,ferretti,"China, Taiwan, South Korea, Veitnam, Singapore, Germany, Italy",40  pairs,Weibull,GT,Weibull shape,w_sh,2.826,1.75 - 4.7,1.75,4.7,par_cis_available_weibull,OK,https://science.sciencemag.org/content/368/6491/eabb6936
+ferretti,ferretti,"China, Taiwan, South Korea, Veitnam, Singapore, Germany, Italy",40  pairs,Weibull,GT,median,median,5,NA,NA,NA,par_cis_available_weibull,OK,https://science.sciencemag.org/content/368/6491/eabb6936
+nishiura_18,nishiura_18,"China, Taiwan, South Korea,Vietnam, Singapore, Germany",18 pairs,Weibull,SI,mean,mean,4.8,3.8-6.1,3.8,6.1,mean_sd_weibull,OK,https://www.ijidonline.com/article/S1201-9712(20)30119-3/pdf
+nishiura_18,nishiura_18,"China, Taiwan, South Korea,Vietnam, Singapore, Germany",18 pairs,Weibull,SI,sd,sd,2.3,1.6-3.5,1.6,3.5,mean_sd_weibull,OK,https://www.ijidonline.com/article/S1201-9712(20)30119-3/pdf
+nishiura_18,nishiura_18,"China, Taiwan, South Korea,Vietnam, Singapore, Germany",18 pairs,Weibull,SI,Weibull shape,w_sh,2.203391,NA,NA,NA,mean_sd_weibull,OK,https://www.ijidonline.com/article/S1201-9712(20)30119-3/pdf
+nishiura_18,nishiura_18,"China, Taiwan, South Korea,Vietnam, Singapore, Germany",18 pairs,Weibull,SI,Weibull scale,w_sc,5.419875,NA,NA,NA,mean_sd_weibull,OK,https://www.ijidonline.com/article/S1201-9712(20)30119-3/pdf
