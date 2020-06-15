@@ -35,10 +35,10 @@ d <- d[d$study_r!="liao",]
 d <- d[d$study_r!="cheng",]
 d$central_measure
 
-n_primary_runs <-  10  ####1000
-n_primary_samples <- 10 ####1000
-n_bootstrap_runs <- 100  #####10000
-n_bootstrap_samples <- 10 ##### 1000
+n_primary_runs <-  1000  ####1000
+n_primary_samples <- 1000 ####1000
+n_bootstrap_runs <- 10000  #####10000
+n_bootstrap_samples <- 1000 ##### 1000
 
 ### load data and estimate transmission time relative to symptoms
 
