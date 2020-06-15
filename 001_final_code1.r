@@ -17,7 +17,7 @@ d <- d[d$study_r!="cheng",]
 d$central_measure
 
 ### sample numbers
-n_sample <- 10  #### reduce to 10,000 for code to run more quickly
+n_sample <- 100000  #### reduce to 10,000 for code to run more quickly
 
 #### load data and generate transmission relative to symptom onset distributions.
 source("002_load_data_final.r")
