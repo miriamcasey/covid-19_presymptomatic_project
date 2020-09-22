@@ -1,4 +1,4 @@
-#### Griffin et al rapid systematic review of the serial interval of SARS-CoV-2
+#### Griffin et al: A rapid review of available evidence on the serial interval and generation time of COVID-19
 Abstract:
 Background: The serial interval is the time between symptom onsets in an infector-infectee pair. The generation time, also known as the generation interval, is the time between infection events in an infector-infectee pair. The serial interval and the generation time are key parameters for assessing the dynamics of a disease. A number of scientific papers reported information pertaining to the serial interval and/or generation time for COVID-19. 
 Objective: Conduct a review of available evidence to advise on appropriate parameter values for serial interval and generation time in national COVID-19 transmission models for Ireland and on methodological issues relating to those parameters.
